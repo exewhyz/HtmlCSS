@@ -1,6 +1,40 @@
-body{
-    /* background-color: yellow; */
+/* body{
+    background-color: yellow;
 }
 table,td,th,tr{
     border: 1px solid red;
+} */
+
+div{
+    color: blue;
+}
+
+/* Universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+p{
+    color: red;
+}
+
+/* id selector */
+#something{
+    background-color: red;
+}
+
+/* class selector */
+.class-selector{
+    background-color: green;
+}
+
+p{
+    background-color: blue;
+}
+/* group selector */
+div,p,.text{
+    padding: 20px;
 }
